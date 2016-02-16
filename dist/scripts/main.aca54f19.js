@@ -1,0 +1,1 @@
+"use strict";angular.module("angularSpaRefreshApp").controller("MainCtrl",function(){this.awesomeThings=["HTML5 Boilerplate","AngularJS","Karma"]});
