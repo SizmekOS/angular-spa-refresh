@@ -1,0 +1,30 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body ng-app="angularSpaRefreshApp" ng-controller="MainCtrl as vm">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-webstorage/angular-webstorage.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+		<!-- build:js({.tmp,app}) scripts/angularSpaRefresh.js -->
+		<script src="scripts/app.js"></script>
+		<script src="scripts/providers/angular-spa-refresh.js"></script>
+		<!-- endbuild -->
+
+		<!-- build:js({.tmp,app}) scripts/main.js -->
+		<script src="scripts/controllers/main.js"></script>
+		<!-- endbuild -->
+</body>
+</html>
